@@ -1,0 +1,8 @@
+name: reusable
+on:
+  workflow_call:
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo benign-reusable-workflow
